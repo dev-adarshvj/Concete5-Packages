@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema version="0.3">
+  <table name="btServiceLocationVariable">
+    <field name="vID" type="I">
+      <key />
+      <unsigned />
+      <autoincrement/>
+    </field>
+    <field name="variable" type="C" size="64"></field>
+  </table>
+</schema>

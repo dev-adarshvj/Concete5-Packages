@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btStudioTestimonialsPro">
+		<field name="bID" type="I">
+			<KEY/>
+			<unsigned />
+		</field>
+        <field name="title" type="C" size="255" />
+        <field name="display_type" type="C" size="255" />
+        <field name="number" type="I" />
+        <field name="pagination" type="I" />
+        <field name="effect" type="C" size="255" />
+        <field name="rotate_length" type="I" />
+        <field name="display" type="C" size="255" />
+        <field name="sort" type="C" size="255" />
+		
+        <field name="testimonial_ids" type="X2" />
+        <field name="category" type="X2" />
+		
+        <field name="enable_submit" type="I" />
+        <field name="submit_link_text" type="C" size="255" />
+        <field name="notify_on_submission" type="I" />
+        <field name="recipient_email" type="C" size="255" />
+		
+        <field name="display_image" type="I" />
+        <field name="image_width" type="I" />
+        <field name="image_height" type="I" />
+		
+		
+	</table>
+</schema>

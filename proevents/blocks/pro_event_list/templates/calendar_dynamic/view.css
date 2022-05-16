@@ -1,0 +1,175 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:300);
+
+#dynamic_contain {
+    padding: 1px;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-style: solid;
+    min-height: 270px;
+    width: 300px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-family: 'Dosis', sans-serif !important;
+}
+
+#dynamic_header {
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #f2f2f2 0%, #e5e5e5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(0%, #f2f2f2), color-stop(100%, #e5e5e5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f2f2f2 0%, #e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffffff 0%, #f2f2f2 0%, #e5e5e5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffffff 0%, #f2f2f2 0%, #e5e5e5 100%); /* IE10+ */
+    background: linear-gradient(top, #ffffff 0%, #f2f2f2 0%, #e5e5e5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0); /* IE6-9 */
+    min-height: 45px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+    font-weight: 500;
+}
+
+.month_nav {
+    width: 35px;
+    letter-spacing: 0.01ex;
+    font-size: 28px;
+}
+
+.month_nav:hover {
+    cursor: pointer
+}
+
+#month_title {
+    height: 26px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 160px;
+    font-size: 26px;
+}
+
+#dynamic_body {
+    min-height: 110px;
+}
+
+#dynamic_footer {
+    background: #e8e8e8; /* Old browsers */
+    background: -moz-linear-gradient(top, #e8e8e8 0%, #f7f7f7 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e8e8e8), color-stop(100%, #f7f7f7)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #e8e8e8 0%, #f7f7f7 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #e8e8e8 0%, #f7f7f7 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #e8e8e8 0%, #f7f7f7 100%); /* IE10+ */
+    margin-top: 8px;
+
+    background: linear-gradient(top, #e8e8e8 0%, #f7f7f7 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8e8e8', endColorstr='#f7f7f7', GradientType=0); /* IE6-9 */
+    padding-top: 12px;
+    padding-left: 4px;
+    min-height: 55px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.month_next {
+    margin-right: 5px;
+    float: right;
+}
+
+.month_prev {
+    margin-left: 5px;
+    float: left;
+}
+
+.dyday {
+    padding-right: 6px;
+    padding-left: 6px;
+    float: left;
+    padding-top: 14px;
+}
+
+.dyday:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.day_selected {
+    text-decoration: underline;
+}
+
+.has_date {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-image: url(./images/bullet.png);
+    color: #00c1b6;
+}
+
+#dynamic_dayinfo {
+    height: 48px;
+}
+
+#dayname {
+    line-height: 38px;
+    float: left;
+    font-size: 44px;
+}
+
+#day {
+    margin-left: 6px;
+    font-size: 26px;
+    float: left;
+}
+
+#day #month {
+    font-size: 14px;
+}
+
+.dynamic_date_time {
+    margin-right: 8px;
+    font-size: 16px;
+    line-height: 22px;
+    float: left;
+    text-align: center;
+    width: 60px;
+    color: white;
+    padding: 3px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.dynamic_event_details {
+    padding: 13px;
+    width: 267px;
+    font-size: 20px;
+    line-height: 28px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.dynamic_event_details:hover {
+    padding: 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d1d1d1;
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+.dynamic_event_details .details {
+    margin-top: 12px;
+    line-height: 21px;
+    font-size: 15px;
+}
+
+.test {
+    color: #a1a1a1;
+}
+

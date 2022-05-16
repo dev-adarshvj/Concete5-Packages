@@ -1,0 +1,54 @@
+/**
+ * @project:   Progressbar add-on for concrete5
+ * 
+ * @author     Fabian Bitter
+ * @copyright  (C) 2017 Bitter Webentwicklung (www.bitter-webentwicklung.de)
+ * @version    1.0
+ */
+
+.defaults() {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.progressbar-container {
+    .defaults();
+    position: relative;
+    
+    .progressbar-label {
+        .defaults();
+        height: 15px;
+        line-height: 15px;
+    }
+    
+    &.thick {
+        .progressbar {
+            height: 30px;
+        }
+        
+        .progressbar-label {
+            height: 30px;
+            line-height: 30px;
+        }
+    }
+
+    .progressbar {
+        .defaults();
+        position: absolute;
+        height: 15px;
+        
+        &.inline {
+            position: absolute;
+            
+            .progressbar-label {
+                position: absolute;
+                
+            }
+        }
+        
+        .progressbar-filled {
+            
+        }
+    }
+}

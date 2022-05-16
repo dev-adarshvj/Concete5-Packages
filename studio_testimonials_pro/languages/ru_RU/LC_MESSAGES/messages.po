@@ -1,0 +1,396 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Studio Testimonials Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-25 02:00+0400\n"
+"PO-Revision-Date: 2014-01-25 02:00+0400\n"
+"Last-Translator: Anton Schepetkov <schepetkov@gmail.com>\n"
+"Language-Team: Concrete5 Russia <support@concrete5russia.ru>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: _;t;t2:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../controller.php:1 ../../../blocks/studio_testimonials_pro/add.php:2
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:1
+#: ../../../blocks/studio_testimonials_pro/edit.php:2
+#: ../../../blocks/studio_testimonials_pro/view.php:1
+#: ../../../blocks/studio_testimonials_pro/tools/submit_testimonial.php:1
+#: ../../../controllers/dashboard/studio_testimonials_pro/controller.php:2
+#: ../../../controllers/dashboard/studio_testimonials_pro/manage.php:2
+#: ../../../models/testimonial.php:1
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:1
+#: ../../../single_pages/dashboard/studio_testimonials_pro/view.php:1
+msgid "Access Denied."
+msgstr "Доступ запрещен."
+
+#: ../../../controller.php:10
+msgid "Manage and display testmonials."
+msgstr "Управление отзывами"
+
+#: ../../../controller.php:14
+msgid "Studio Testimonials Pro"
+msgstr "Studio Testimonials Pro"
+
+#: ../../../controller.php:23
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:97
+msgid "Manage Testimonials"
+msgstr "Управление отзывами"
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:9
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:10
+msgid "Advanced"
+msgstr "Расширенное"
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:18
+msgid "Title"
+msgstr "Заголовок"
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:25
+msgid "Display Type"
+msgstr "Тип отображения"
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:30
+msgid "# to display"
+msgstr "Число отображаемых элементов"
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:36
+msgid ""
+"Display pagination interface if more items are available than are displayed."
+msgstr ""
+"Разбивать на страницы, если имеется большее количество элементов, чем "
+"указано."
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:42
+msgid "Speed"
+msgstr "Скорость"
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:44
+msgid "In milliseconds."
+msgstr "В миллисекундах."
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:47
+msgid "Effect"
+msgstr "Эффект смены отзывов"
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:48
+msgid "Fade"
+msgstr "Fade"
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:48
+msgid "Slide"
+msgstr "Slide"
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:56
+msgid "Filter"
+msgstr "Фильтр"
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:67
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:74
+msgid "No categories have been added yet."
+msgstr "Категории отсутствуют."
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:72
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:194
+msgid "Select Testimonials"
+msgstr "Выбрать отзывы"
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:79
+msgid "Sort By"
+msgstr "Сортировать по"
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:90
+msgid "Display Image"
+msgstr "Показывать изображение"
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:97
+msgid "Image Size"
+msgstr "Размеры изображения"
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:102
+msgid "(width)"
+msgstr "(ширина)"
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:106
+msgid "(height)"
+msgstr "(высота)"
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:112
+msgid "User Submissions"
+msgstr "Ответы пользователей"
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:115
+msgid "Enable User Submissions"
+msgstr "Разрешить отправку отзывов посетителями"
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:118
+msgid "Any submission must be approved before it will be displayed."
+msgstr ""
+"Все отзывы перед публикацией должны быть одобрены администратором сайта."
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:123
+msgid "Submit Link Text"
+msgstr "Текст ссылки для отправки своего отзыва"
+
+#: ../../../blocks/studio_testimonials_pro/add_edit_form.php:130
+msgid "Notify by email on submission"
+msgstr "Уведомлять на email, когда кто-нибудь отправляет отзыв"
+
+#: ../../../blocks/studio_testimonials_pro/controller.php:1
+msgid "Access Denied"
+msgstr "Доступ запрещен"
+
+#: ../../../blocks/studio_testimonials_pro/controller.php:31
+#: ../../../blocks/studio_testimonials_pro/tools/submit_testimonial.php:60
+msgid "Submit Testimonial"
+msgstr "Отправить отзыв"
+
+#: ../../../blocks/studio_testimonials_pro/controller.php:122
+#: ../../../blocks/studio_testimonials_pro/tools/submit_testimonial.php:24
+msgid "Testimonial Submission"
+msgstr "Вам отправили отзыв"
+
+#: ../../../blocks/studio_testimonials_pro/controller.php:144
+msgid "Single"
+msgstr "По одному"
+
+#: ../../../blocks/studio_testimonials_pro/controller.php:144
+msgid "Single Rotating"
+msgstr "По одному с эффектом смены друг друга"
+
+#: ../../../blocks/studio_testimonials_pro/controller.php:144
+msgid "Multiple"
+msgstr "Несколько штук"
+
+#: ../../../blocks/studio_testimonials_pro/controller.php:145
+msgid "All Testimonies"
+msgstr "Все отзывы"
+
+#: ../../../blocks/studio_testimonials_pro/controller.php:145
+msgid "By Category"
+msgstr "По категории"
+
+#: ../../../blocks/studio_testimonials_pro/controller.php:145
+msgid "Choose Testimonials"
+msgstr "Выбрать отзывы"
+
+#: ../../../blocks/studio_testimonials_pro/controller.php:146
+msgid "Random"
+msgstr "Случайным образом"
+
+#: ../../../blocks/studio_testimonials_pro/controller.php:146
+msgid "Most Recent First"
+msgstr "Самая новая в начале"
+
+#: ../../../blocks/studio_testimonials_pro/controller.php:146
+msgid "Most Recent Last"
+msgstr "Самая новая в конце"
+
+#: ../../../blocks/studio_testimonials_pro/tools/select_testimonials.php:36
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:30
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:125
+msgid "Author"
+msgstr "Автор"
+
+#: ../../../blocks/studio_testimonials_pro/tools/select_testimonials.php:37
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:126
+msgid "Testimonial"
+msgstr "Отзыв"
+
+#: ../../../blocks/studio_testimonials_pro/tools/select_testimonials.php:49
+msgid "Choose Selected"
+msgstr "Использовать отмеченные"
+
+#: ../../../blocks/studio_testimonials_pro/tools/select_testimonials.php:50
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ../../../blocks/studio_testimonials_pro/tools/submit_testimonial.php:46
+msgid "Name"
+msgstr "Имя"
+
+#: ../../../blocks/studio_testimonials_pro/tools/submit_testimonial.php:50
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:38
+msgid "Content"
+msgstr "Текст"
+
+#: ../../../blocks/studio_testimonials_pro/tools/submit_testimonial.php:54
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:44
+msgid "Extra"
+msgstr "Дополнительно"
+
+#: ../../../blocks/studio_testimonials_pro/tools/submit_testimonial.php:56
+msgid ""
+"Anything entered here will appear below the author (eg. Title, Company, "
+"etc.). Anything beginning with http:// will automatically be linked.."
+msgstr ""
+"Введенная ниже информация будет отображаться под автором (например, название "
+"компании). То, что будет начинаться с http:// автоматически преобразуется в "
+"ссылку."
+
+#: ../../../blocks/studio_testimonials_pro/tools/submit_testimonial.php:69
+#: ../../../controllers/dashboard/studio_testimonials_pro/manage.php:25
+#: ../../../controllers/dashboard/studio_testimonials_pro/manage.php:48
+msgid "Please enter an author."
+msgstr "Введите автора."
+
+#: ../../../blocks/studio_testimonials_pro/tools/submit_testimonial.php:72
+msgid "Please enter a testimonial."
+msgstr "Введите отзыв."
+
+#: ../../../blocks/studio_testimonials_pro/tools/submit_testimonial.php:78
+msgid "Testimonial has been submitted for approval."
+msgstr "Отзыв отправлен для одобрения."
+
+#: ../../../controllers/dashboard/studio_testimonials_pro/manage.php:26
+#: ../../../controllers/dashboard/studio_testimonials_pro/manage.php:49
+msgid "Please enter the testimonial content."
+msgstr "Введите текст отзыва"
+
+#: ../../../controllers/dashboard/studio_testimonials_pro/manage.php:84
+msgid "Category added!"
+msgstr "Категория добавлена!"
+
+#: ../../../controllers/dashboard/studio_testimonials_pro/manage.php:86
+#, php-format
+msgid "The category %s already exists!"
+msgstr "Категория %s уже существует!"
+
+#: ../../../controllers/dashboard/studio_testimonials_pro/manage.php:92
+msgid "Category cannot be blank!"
+msgstr "Имя категории не может быть пустым!"
+
+#: ../../../mail/testimonial_form_submission.php:6
+#, php-format
+msgid ""
+"\n"
+"There has been a testimonial submission on your Concrete5 website.\n"
+"\n"
+"To view and/or approve this testimonial, visit %s \n"
+"\n"
+msgstr ""
+"\n"
+" На Вашем сайте Concrete5 кто-то отправил отзыв.\n"
+"\n"
+"Для просмотра и/или одобрения отзыва  перейдите по ссылке: %s\n"
+"\n"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:14
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:86
+#, php-format
+msgid "%s Testimonial"
+msgstr "%s отзыв"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:31
+msgid "Date Added"
+msgstr "Дата добавления"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:47
+msgid ""
+"Anything entered here will appear below the author (eg. Title, Company, "
+"etc.). Anything beginning with http:// will automatically be linked."
+msgstr ""
+"Введенная ниже информация будет отображаться под автором (например, название "
+"компании). То, что будет начинаться с http:// автоматически преобразуется в "
+"ссылку."
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:50
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:131
+msgid "Approved"
+msgstr "Утвердить"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:51
+msgid "Image"
+msgstr "Изображение"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:54
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:140
+msgid "Yes"
+msgstr "Да"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:55
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:140
+msgid "No"
+msgstr "Нет"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:60
+msgid "Select Image"
+msgstr "Выбрать изображение"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:63
+msgid "Add to Categories"
+msgstr "Добавить в категории"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:108
+msgid "**Category"
+msgstr "**Категория"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:114
+msgid "search..."
+msgstr "введите слово"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:115
+msgid "Search"
+msgstr "Поиск"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:117
+msgid "Reset Search"
+msgstr "Сбросить поиск"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:119
+msgid "Add New Testimonial"
+msgstr "Добавить новый отзыв"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:121
+msgid "Testimonials"
+msgstr "Отзывы"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:127
+msgid "Category"
+msgstr "Категория"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:129
+msgid "Date"
+msgstr "Дата"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:141
+msgid "Edit"
+msgstr "Правка"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:142
+msgid "Are you sure you want to delete this testimonial?"
+msgstr "Вы уверены, что хотите удалить данный отзыв?"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:142
+msgid "Delete"
+msgstr "Удаление"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:143
+msgid "Unapprove"
+msgstr "Отказать"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:143
+msgid "Approve"
+msgstr "Утвердить"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:151
+msgid "Manage Categories"
+msgstr "Управление категориями"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:156
+msgid "Are you sure you want to delete this category?"
+msgstr "Вы уверены, что хотите удалить данную категорию?"
+
+#: ../../../single_pages/dashboard/studio_testimonials_pro/manage.php:163
+msgid "Add Category"
+msgstr "Добавить категорию"

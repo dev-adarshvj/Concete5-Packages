@@ -1,0 +1,164 @@
+.event_cal_wrap {
+    float: left;
+    min-height: 250px;
+}
+
+.event_cal {
+    border-collapse: collapse;
+    border-color: #b5b5b5;
+    border-width: 1px;
+    border-style: solid;
+    -moz-box-shadow: 2px 2px 6px #666;
+    -webkit-box-shadow: 2px 2px 6px #666;
+    box-shadow: 2px 2px 6px #666;
+    float: left;
+    margin-left: 22px;
+    margin-bottom: 22px;
+}
+
+.event_cal #select {
+    text-align: left;
+}
+
+.event_cal #year {
+    height: 28px;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px 12px 5px 0px;
+}
+
+.event_cal .header TD {
+
+    text-align: center;
+    font-size: 10px;
+    height: 10px;
+    padding: 5px 0px 5px 0px;
+}
+
+.event_cal .daynum {
+
+    font-size: 10px;
+
+}
+
+.event_cal TD {
+    width: 22px !important;
+    height: 22px;
+    border-color: #c6c6c6;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0px 3px 0px 3px;
+
+}
+
+.event_cal TD.booked {
+    background-color: #ffdbdb;
+}
+
+.event_cal TD.available {
+    background-color: #dfffdc;
+}
+
+.event_cal TD:hover {
+    background-color: #f4f4f4;
+}
+
+.event_cal .cal_blank {
+
+    background-color: #e7e7e7;
+
+}
+
+.event_cal .current {
+    background-color: #f5f5f5;
+}
+
+.event_cal .day {
+
+}
+
+.event_cal .cal_day {
+
+}
+
+.event_cal .cal_day a {
+    font-size: 12px;
+
+}
+
+.event_cal .allday, .allday a {
+    background-color: #e6e1de;
+}
+
+.event_cal .normal, .normal a {
+
+}
+
+.event_cal .infowrap {
+    width: 350px;
+}
+
+.iCal {
+    margin-top: 5px;
+    float: right;
+    line-height: 35px;
+}
+
+.iCal img {
+    float: left;
+    padding-top: 5px;
+}
+
+.custom_style {
+    margin-top: 12px;
+    text-decoration: none !important;
+    padding: 4px 8px 6px 8px;
+    float: right;
+}
+
+.custom_style:hover {
+    cursor: pointer
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.label {
+    text-align: right;
+}
+
+.struct a {
+    padding-left: 8px;
+    padding-right: 5px;
+}
+
+.struct {
+    padding-bottom: 5px;
+}
+
+a.tooltip {
+    position: relative;
+    text-decoration: none;
+}
+
+a.button, a.button:active, a.button:hover {
+    color: white !important;
+}
+
+.category_color {
+    padding: 0px 4px 0px 4px;
+    color: white !important;
+    font-size: 10px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.ui-dialog-content h2 {
+    margin-top: 0px;
+}

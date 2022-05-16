@@ -1,0 +1,12 @@
+.st-pro-image{float: left; margin: 0 10px 10px 0; }
+.st-pro-testimonial{margin: 15px 0; overflow: hidden;}
+.st-pro-author{font-style: italic; margin-left: .8em}
+.st-pro-extra{margin-left: 1.6em;}
+
+/* Rotating */
+.st-pro-ticker{list-style: none; margin: 0; padding: 0}
+.st-pro-ticker li{display: none; }
+.st-pro-ticker li:first-child{display: block; }
+
+/* Popup form */
+.st-form{max-width: 500px; margin: 20px auto; padding: 10px 30px 20px; background: #fff; position: relative; }

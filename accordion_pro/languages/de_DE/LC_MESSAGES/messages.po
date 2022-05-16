@@ -1,0 +1,882 @@
+# German translations for PACKAGE package
+# German translation for PACKAGE.
+# Copyright (C) 2017 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Fabian Bitter <fabianbitter@fabians-macbook-air-2.local>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-19 21:03+0200\n"
+"PO-Revision-Date: 2017-06-20 00:44+0200\n"
+"Last-Translator: Fabian Bitter <fabianbitter@fabians-macbook-air-2.local>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7\n"
+
+#: blocks/accordion_pro/controller.php:44 controller.php:27
+msgid "Create and add unlimited accordion elements to your website."
+msgstr "Erstellen und fügen Sie beliebig viele Akkordeon-Elemente zu Ihrer Seite hinzu."
+
+#: blocks/accordion_pro/controller.php:124
+msgid "You must specify a valid animation duration."
+msgstr "Sie müssen eine gültige Animationsdauer eingeben."
+
+#: blocks/accordion_pro/controller.php:139
+msgid "You must specify a valid title for each item."
+msgstr "Sie müssen einen gültigen Titel für jedes Element eingeben."
+
+#: blocks/accordion_pro/form.php:13 views/dialogs/edit_style_preset.php:13
+#: views/dialogs/import_style_preset.php:13
+msgid "For support requests please contact kontakt@bitter-webentwicklung.de."
+msgstr "Für Support-Anfragen kontaktieren Sie bitte kontakt@bitter-webentwicklung.de."
+
+#: blocks/accordion_pro/form.php:18
+msgid "Items"
+msgstr "Elemente"
+
+#: blocks/accordion_pro/form.php:19
+msgid "Options"
+msgstr "Optionen"
+
+#: blocks/accordion_pro/form.php:29 src/Entity/StylePreset.php:2474
+msgid "Title"
+msgstr "Titel"
+
+#: blocks/accordion_pro/form.php:33
+msgid "Click on the textbox to show all fields of this item."
+msgstr "Klicken Sie auf die Textbox um alle Felder des Elements sichtbar zu machen."
+
+#: blocks/accordion_pro/form.php:39
+msgid "Paragraph"
+msgstr "Inhalt"
+
+#: blocks/accordion_pro/form.php:44
+msgid "State"
+msgstr "Status"
+
+#: blocks/accordion_pro/form.php:45
+msgid "Closed"
+msgstr "Geschlossen"
+
+#: blocks/accordion_pro/form.php:45
+msgid "Open"
+msgstr "Geöffnet"
+
+#: blocks/accordion_pro/form.php:49
+msgid "Remove Item"
+msgstr "Element entfernen"
+
+#: blocks/accordion_pro/form.php:53
+msgid "Collapse"
+msgstr "Schließen"
+
+#: blocks/accordion_pro/form.php:100
+msgid "You don't have any items. Please click <a href=\"javascript:void(0);\" onclick=\"return accordionPro.backend.appendEmptyItem()\">here</a> to add one."
+msgstr "Sie haben noch keine Elemente. Bitte klicken Sie <a href=\"javascript:void(0);\" onclick=\"return accordionPro.backend.appendEmptyItem()\">hier</a> um ein Element hinzuzufügen."
+
+#: blocks/accordion_pro/form.php:109
+msgid "Add Item"
+msgstr "Element hinzufügen"
+
+#: blocks/accordion_pro/form.php:116
+msgid "Style Preset"
+msgstr "Designvorlage"
+
+#: blocks/accordion_pro/form.php:121
+msgid "Edit preset"
+msgstr "Designvorlage bearbeiten"
+
+#: blocks/accordion_pro/form.php:125
+msgid "Import presets"
+msgstr "Designvorlage importieren"
+
+#: blocks/accordion_pro/form.php:129
+msgid "Add preset"
+msgstr "Designvorlage hinzufügen"
+
+#: blocks/accordion_pro/form.php:135
+msgid "Allow multiple open items"
+msgstr "Erlaube mehrere offene Elemente"
+
+#: blocks/accordion_pro/form.php:136 src/Helper.php:745
+msgid "No"
+msgstr "Nein"
+
+#: blocks/accordion_pro/form.php:136 src/Helper.php:746
+msgid "Yes"
+msgstr "Ja"
+
+#: blocks/accordion_pro/form.php:140
+msgid "Semantic tag for titles"
+msgstr "Semantischer Tag für Titel"
+
+#: blocks/accordion_pro/form.php:145
+msgid "Animation duration"
+msgstr "Animationszeit"
+
+#: blocks/accordion_pro/form.php:151
+msgid "ms"
+msgstr "ms"
+
+#: blocks/accordion_pro/form.php:156
+msgid "The total duration of the slide animation."
+msgstr "Die gesamte Zeit der Slide-Animation"
+
+#: blocks/accordion_pro/form.php:167 views/dialogs/edit_style_preset.php:129
+msgid "Are you sure?"
+msgstr "Sind Sie sicher?"
+
+#: blocks/accordion_pro/form.php:168
+msgid "Add style preset"
+msgstr "Designvorlage hinzufügen"
+
+#: blocks/accordion_pro/form.php:170
+msgid "Edit style preset"
+msgstr "Bearbeite Designvorlage"
+
+#: blocks/accordion_pro/form.php:173
+msgid "Import style preset"
+msgstr "Importiere Designvorlage"
+
+#: blocks/accordion_pro/view.php:16
+msgid "Accordion is disabled in edit mode."
+msgstr "Accordion Pro ist im Bearbeitungsmodus deaktiviert."
+
+#: controller.php:31
+msgid "Accordion Pro"
+msgstr "Accordion Pro"
+
+#: src/Entity/StylePreset.php:663
+msgid "New Preset"
+msgstr "Neue Vorlage"
+
+#: src/Entity/StylePreset.php:1339
+msgid "Left"
+msgstr "Links"
+
+#: src/Entity/StylePreset.php:1340
+msgid "Right"
+msgstr "Rechts"
+
+#: src/Entity/StylePreset.php:1835
+msgid "You must specify a preset id."
+msgstr "Sie müssen eine gültige ID für die Designvorlage eingeben."
+
+#: src/Entity/StylePreset.php:1840
+msgid "You must specify a valid preset name."
+msgstr "Sie müssen einen gültige Namen für die Designvorlage eingeben."
+
+#: src/Entity/StylePreset.php:1843
+msgid "You must specify a preset name."
+msgstr "Sie müssen einen Namen für die Designvorlage eingeben."
+
+#: src/Entity/StylePreset.php:1848
+msgid "You must specify a valid preset type."
+msgstr "Sie müssen einen gültigen Typ für die Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1851
+msgid "You must specify a preset type."
+msgstr "Sie müssen einen Typ für die Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1856
+msgid "You must specify a valid color for normal title background."
+msgstr "Sie müssen eine gültige Hintergrundfarbe für den Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1859
+msgid "You must specify a color for normal title background."
+msgstr "Sie müssen eine Hintergrundfarbe für den Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1864
+msgid "You must specify a valid color for hovered title background."
+msgstr "Sie müssen eine gültige Hintergrundfarbe (hover) für den Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1867
+msgid "You must specify a color for hovered title background."
+msgstr "Sie müssen eine Hintergrundfarbe (hover) für den Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1872
+msgid "You must specify a valid color for active title background."
+msgstr "Sie müssen eine gültige Hintergrundfarbe (aktiv) für den Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1875
+msgid "You must specify a color for active title background."
+msgstr "Sie müssen eine Hintergrundfarbe (aktiv) für den Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1880
+msgid "You must specify a valid color for normal title text."
+msgstr "Sie müssen eine gültige Textfarbe für den Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1883
+msgid "You must specify a color for normal title text."
+msgstr "Sie müssen eine Textfarbe für den Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1888
+msgid "You must specify a valid color for hovered title text."
+msgstr "Sie müssen eine gültige Textfarbe (hover) für den Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1891
+msgid "You must specify a color for hovered title text."
+msgstr "Sie müssen eine Textfarbe (hover) für den Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1896
+msgid "You must specify a valid color for active title text."
+msgstr "Sie müssen eine gültige Textfarbe (aktiv) für den Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1899
+msgid "You must specify a color for active title text."
+msgstr "Sie müssen eine Textfarbe (aktiv) für den Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1904
+msgid "You must specify a valid font weight for the title text."
+msgstr "Sie müssen eine gültige Textbreite für den Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1907
+msgid "You must specify a font weight for the title text."
+msgstr "Sie müssen eine Textbreite für den Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1912
+msgid "You must specify a valid text decoration for the title text."
+msgstr "Sie müssen eine gültige Textdekoration für den Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1915
+msgid "You must specify a text decoration for the title text."
+msgstr "Sie müssen eine Textdekoration für den Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1920
+msgid "You must specify a valid icon for the normal title icon."
+msgstr "Sie müssen ein gültiges Symbol für den Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1923
+msgid "You must specify a icon for the normal title icon."
+msgstr "Sie müssen ein Symbol für den Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1928
+msgid "You must specify a valid icon for the active title icon."
+msgstr "Sie müssen ein gültiges Symbol (aktiv) für den Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1931
+msgid "You must specify a icon for the active title icon."
+msgstr "Sie müssen ein Symbol (aktiv) für den Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1936
+msgid "You must specify a valid value for the title icon orientation."
+msgstr "Sie müssen einen gültigen Wert für die Symbolausrichtung des Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1939
+msgid "You must specify a value for the title icon orientation."
+msgstr "Sie müssen einen Wert für die Symbolausrichtung des Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1944
+msgid "You must specify a valid value for the title icon padding."
+msgstr "Sie müssen einen gültigen Wert für Symbol Innenabstand des Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1947
+msgid "You must specify a value for the title icon padding."
+msgstr "Sie müssen einen Wert für Symbol Innenabstand des Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1952
+msgid "You must specify a valid value for the normal title icon color."
+msgstr "Sie müssen einen gültigen Wert für die Symbol Farbe des Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1955
+msgid "You must specify a value for the normal title icon color."
+msgstr "Sie müssen einen Wert für die Symbol Farbe des Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1960
+msgid "You must specify a valid value for the hovered title icon color."
+msgstr "Sie müssen einen gültigen Wert für die Symbol Farbe (hover) des Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1963
+msgid "You must specify a value for the hovered title icon color."
+msgstr "Sie müssen einen Wert für die Symbol Farbe (hover) des Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1968
+msgid "You must specify a valid value for the active title icon color."
+msgstr "Sie müssen einen gültigen Wert für die Symbol Farbe (aktiv) des Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1971
+msgid "You must specify a value for the active title icon color."
+msgstr "Sie müssen einen Wert für die Symbol Farbe (aktiv) des Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1976
+msgid "You must specify a valid value for the normal title icon background color."
+msgstr "Sie müssen einen gültigen Wert für die Symbol Hintergrundfarbe des Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1979
+msgid "You must specify a value for the normal title icon background color."
+msgstr "Sie müssen einen Wert für die Symbol Hintergrundfarbe des Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1984
+msgid "You must specify a valid value for the hovered title icon background color."
+msgstr "Sie müssen einen gültigen Wert für die Symbol Hintergrundfarbe (hover) des Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1987
+msgid "You must specify a value for the hovered title icon background color."
+msgstr "Sie müssen einen Wert für die Symbol Hintergrundfarbe (hover) des Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1992
+msgid "You must specify a valid value for the active title icon background color."
+msgstr "Sie müssen einen gültigen Wert für die Symbol Hintergrundfarbe (aktiv) des Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:1995
+msgid "You must specify a value for the active title icon background color."
+msgstr "Sie müssen einen Wert für die Symbol Hintergrundfarbe (aktiv) des Titel der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2000
+msgid "You must specify a valid value for the title border bottom color."
+msgstr "Sie müssen einen gültigen Wert für die untere Rahmenfarbe des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2003
+msgid "You must specify a value for the title border bottom color."
+msgstr "Sie müssen einen Wert für die untere Rahmenfarbe des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2008
+msgid "You must specify a valid value for the title border top color."
+msgstr "Sie müssen einen gültigen Wert für die obere Rahmenfarbe des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2011
+msgid "You must specify a value for the title border top color."
+msgstr "Sie müssen einen Wert für die obere Rahmenfarbe des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2016
+msgid "You must specify a valid value for the title border left color."
+msgstr "Sie müssen einen gültigen Wert für die linke Rahmenfarbe des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2019
+msgid "You must specify a value for the title border left color."
+msgstr "Sie müssen einen Wert für die linke Rahmenfarbe des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2024
+msgid "You must specify a valid value for the title border right color."
+msgstr "Sie müssen einen gültigen Wert für die rechte Rahmenfarbe des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2027
+msgid "You must specify a value for the title border right color."
+msgstr "Sie müssen einen Wert für die rechte Rahmenfarbe des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2032
+msgid "You must specify a valid value for the title border bottom width."
+msgstr "Sie müssen einen gültigen Wert für die untere Rahmenbreite des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2035
+msgid "You must specify a value for the title border bottom width."
+msgstr "Sie müssen einen Wert für die untere Rahmenbreite des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2040
+msgid "You must specify a valid value for the title border top width."
+msgstr "Sie müssen einen gültigen Wert für die obere Rahmenbreite des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2043
+msgid "You must specify a value for the title border top width."
+msgstr "Sie müssen einen Wert für die obere Rahmenbreite des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2048
+msgid "You must specify a valid value for the title border left width."
+msgstr "Sie müssen einen gültigen Wert für die linke Rahmenbreite des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2051
+msgid "You must specify a value for the title border left width."
+msgstr "Sie müssen einen Wert für die linke Rahmenbreite des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2056
+msgid "You must specify a valid value for the title border right width."
+msgstr "Sie müssen einen gültigen Wert für die rechte Rahmenbreite des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2059
+msgid "You must specify a value for the title border right width."
+msgstr "Sie müssen einen Wert für die rechte Rahmenbreite des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2064
+msgid "You must specify a valid value for the title left padding."
+msgstr "Sie müssen einen gültigen Wert für den linken Innenabstand des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2067
+msgid "You must specify a value for the title left padding."
+msgstr "Sie müssen einen Wert für den linken Innenabstand des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2072
+msgid "You must specify a valid value for the title right padding."
+msgstr "Sie müssen einen gültigen Wert für den rechten Innenabstand des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2075
+msgid "You must specify a value for the title right padding."
+msgstr "Sie müssen einen Wert für den rechten Innenabstand des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2080
+msgid "You must specify a valid value for the title bottom padding."
+msgstr "Sie müssen einen gültigen Wert für den unteren Innenabstand des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2083
+msgid "You must specify a value for the title bottom padding."
+msgstr "Sie müssen einen Wert für den unteren Innenabstand des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2088
+msgid "You must specify a valid value for the title top padding."
+msgstr "Sie müssen einen gültigen Wert für den oberen Innenabstand des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2091
+msgid "You must specify a value for the title top padding."
+msgstr "Sie müssen einen Wert für den oberen Innenabstand des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2096
+msgid "You must specify a valid value for the contents border bottom color."
+msgstr "Sie müssen einen gültigen Wert für die untere Rahmenfarbe des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2099
+msgid "You must specify a value for the contents border bottom color."
+msgstr "Sie müssen einen Wert für die untere Rahmenfarbe des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2104
+msgid "You must specify a valid value for the contents border top color."
+msgstr "Sie müssen einen gültigen Wert für die obere Rahmenfarbe des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2107
+msgid "You must specify a value for the contents border top color."
+msgstr "Sie müssen einen Wert für die obere Rahmenfarbe des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2112
+msgid "You must specify a valid value for the contents border left color."
+msgstr "Sie müssen einen gültigen Wert für die linke Rahmenfarbe des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2115
+msgid "You must specify a value for the contents border left color."
+msgstr "Sie müssen einen Wert für die linke Rahmenfarbe des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2120
+msgid "You must specify a valid value for the contents border right color."
+msgstr "Sie müssen einen gültigen Wert für die rechte Rahmenfarbe des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2123
+msgid "You must specify a value for the contents border right color."
+msgstr "Sie müssen einen Wert für die rechte Rahmenfarbe des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2128
+msgid "You must specify a valid value for the contents border bottom width."
+msgstr "Sie müssen einen gültigen Wert für die untere Rahmenbreite des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2131
+msgid "You must specify a value for the contents border bottom width."
+msgstr "Sie müssen einen Wert für die untere Rahmenbreite des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2136
+msgid "You must specify a valid value for the contents border top width."
+msgstr "Sie müssen einen gültigen Wert für die obere Rahmenbreite des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2139
+msgid "You must specify a value for the contents border top width."
+msgstr "Sie müssen einen Wert für die obere Rahmenbreite des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2144
+msgid "You must specify a valid value for the contents border left width."
+msgstr "Sie müssen einen gültigen Wert für die linke Rahmenbreite des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2147
+msgid "You must specify a value for the contents border left width."
+msgstr "Sie müssen einen Wert für die linke Rahmenbreite des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2152
+msgid "You must specify a valid value for the contents border right width."
+msgstr "Sie müssen einen gültigen Wert für die rechte Rahmenbreite des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2155
+msgid "You must specify a value for the contents border right width."
+msgstr "Sie müssen einen Wert für die rechte Rahmenbreite des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2160
+msgid "You must specify a valid value for the contents left padding."
+msgstr "Sie müssen einen gültigen Wert für den linken Innenabstand des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2163
+msgid "You must specify a value for the contents left padding."
+msgstr "Sie müssen einen Wert für den linken Innenabstand des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2168
+msgid "You must specify a valid value for the contents right padding."
+msgstr "Sie müssen einen gültigen Wert für den rechten Innenabstand des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2171
+msgid "You must specify a value for the contents right padding."
+msgstr "Sie müssen einen Wert für den rechten Innenabstand des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2176
+msgid "You must specify a valid value for the contents bottom padding."
+msgstr "Sie müssen einen gültigen Wert für den unteren Innenabstand des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2179
+msgid "You must specify a value for the contents bottom padding."
+msgstr "Sie müssen einen Wert für den unteren Innenabstand des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2184 src/Entity/StylePreset.php:2187
+msgid "You must specify a valid value for the contents top padding."
+msgstr "Sie müssen einen gültigen Wert für den oberen Innenabstand des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2192 src/Entity/StylePreset.php:2195
+msgid "You must specify a valid value for the title height."
+msgstr "Sie müssen einen gültigen Wert für die Höhe des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2200 src/Entity/StylePreset.php:2203
+msgid "You must specify a valid value for the title line height."
+msgstr "Sie müssen einen gültigen Wert für die Zeilenhöhe des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2208 src/Entity/StylePreset.php:2211
+msgid "You must specify a valid value for the title border top style."
+msgstr "Sie müssen einen gültigen Wert für den oberen Rahmenstil des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2216 src/Entity/StylePreset.php:2219
+msgid "You must specify a valid value for the title border bottom style."
+msgstr "Sie müssen einen gültigen Wert für den unteren Rahmenstil des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2224 src/Entity/StylePreset.php:2227
+msgid "You must specify a valid value for the title border left style."
+msgstr "Sie müssen einen gültigen Wert für den linken Rahmenstil des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2232 src/Entity/StylePreset.php:2235
+msgid "You must specify a valid value for the title border right style."
+msgstr "Sie müssen einen gültigen Wert für den rechten Rahmenstil des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2240 src/Entity/StylePreset.php:2243
+msgid "You must specify a valid value for the title margin top."
+msgstr "Sie müssen einen gültigen Wert für den oberen Außenabstand des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2248 src/Entity/StylePreset.php:2251
+msgid "You must specify a valid value for the title margin bottom."
+msgstr "Sie müssen einen gültigen Wert für den unteren Außenabstand des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2256 src/Entity/StylePreset.php:2259
+msgid "You must specify a valid value for the title margin right."
+msgstr "Sie müssen einen gültigen Wert für den rechten Außenabstand des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2264 src/Entity/StylePreset.php:2267
+msgid "You must specify a valid value for the title margin left."
+msgstr "Sie müssen einen gültigen Wert für den linken Außenabstand des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2272 src/Entity/StylePreset.php:2275
+msgid "You must specify a valid value for the title icon margin top."
+msgstr "Sie müssen einen gültigen Wert für den oberen Außenabstand des Symbols des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2280 src/Entity/StylePreset.php:2283
+msgid "You must specify a valid value for the title icon margin bottom."
+msgstr "Sie müssen einen gültigen Wert für den unteren Außenabstand des Symbols des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2288 src/Entity/StylePreset.php:2291
+msgid "You must specify a valid value for the title icon margin left."
+msgstr "Sie müssen einen gültigen Wert für den linken Außenabstand des Symbols des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2296 src/Entity/StylePreset.php:2299
+msgid "You must specify a valid value for the title icon margin right."
+msgstr "Sie müssen einen gültigen Wert für den rechten Außenabstand des Symbols des Titels der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2304 src/Entity/StylePreset.php:2307
+#: src/Entity/StylePreset.php:2331
+msgid "You must specify a valid value for the contents border top style."
+msgstr "Sie müssen einen gültigen Wert für die obere Rahmenbreite des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2312 src/Entity/StylePreset.php:2315
+msgid "You must specify a valid value for the contents border bottom style."
+msgstr "Sie müssen einen gültigen Wert für die untere Rahmenbreite des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2320 src/Entity/StylePreset.php:2323
+msgid "You must specify a valid value for the contents border right style."
+msgstr "Sie müssen einen gültigen Wert für die rechte Rahmenbreite des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2328
+msgid "You must specify a valid value for the contents border left style."
+msgstr "Sie müssen einen gültigen Wert für die linke Rahmenbreite des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2336 src/Entity/StylePreset.php:2339
+msgid "You must specify a valid value for the contents top margin."
+msgstr "Sie müssen einen gültigen Wert für den oberen Außenabstand des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2344 src/Entity/StylePreset.php:2347
+msgid "You must specify a valid value for the contents bottom margin."
+msgstr "Sie müssen einen gültigen Wert für den unteren Außenabstand des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2352 src/Entity/StylePreset.php:2355
+msgid "You must specify a valid value for the contents left margin."
+msgstr "Sie müssen einen gültigen Wert für den linken Außenabstand des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2360 src/Entity/StylePreset.php:2363
+msgid "You must specify a valid value for the contents right margin."
+msgstr "Sie müssen einen gültigen Wert für den rechten Außenabstand des Inhalts der Designvorlage angeben."
+
+#: src/Entity/StylePreset.php:2460
+msgid "General"
+msgstr "Allgemein"
+
+#: src/Entity/StylePreset.php:2468
+msgid "Name"
+msgstr "Name"
+
+#: src/Entity/StylePreset.php:2482
+msgid "Background color normal"
+msgstr "Hintergrundfarbe"
+
+#: src/Entity/StylePreset.php:2492
+msgid "Height"
+msgstr "Höhe"
+
+#: src/Entity/StylePreset.php:2502
+msgid "Line height"
+msgstr "Zeilenhöhe"
+
+#: src/Entity/StylePreset.php:2512
+msgid "margin top"
+msgstr "Außenabstand Oben"
+
+#: src/Entity/StylePreset.php:2522
+msgid "margin bottom"
+msgstr "Außenabstand Unten"
+
+#: src/Entity/StylePreset.php:2532
+msgid "margin right"
+msgstr "Außenabstand Rechts"
+
+#: src/Entity/StylePreset.php:2542
+msgid "margin left"
+msgstr "Außenabstand Links"
+
+#: src/Entity/StylePreset.php:2552
+msgid "Background color hover"
+msgstr "Hintergrundfarbe (Hover)"
+
+#: src/Entity/StylePreset.php:2562
+msgid "Background color active"
+msgstr "Hintergrundfarbe (Aktiv)"
+
+#: src/Entity/StylePreset.php:2572
+msgid "Text color normal"
+msgstr "Text Farbe"
+
+#: src/Entity/StylePreset.php:2582
+msgid "Text color hover"
+msgstr "Text Farbe (Hover)"
+
+#: src/Entity/StylePreset.php:2592
+msgid "Text color active"
+msgstr "Text Farbe (Aktiv)"
+
+#: src/Entity/StylePreset.php:2602
+msgid "Text font weight"
+msgstr "Text Schriftbreite"
+
+#: src/Entity/StylePreset.php:2612
+msgid "Text font size"
+msgstr "Text Schriftgröße"
+
+#: src/Entity/StylePreset.php:2622
+msgid "Text decoration"
+msgstr "Text Dekoration"
+
+#: src/Entity/StylePreset.php:2629 src/Entity/StylePreset.php:2639
+msgid "(None)"
+msgstr "(keins)"
+
+#: src/Entity/StylePreset.php:2632
+msgid "Icon normal"
+msgstr "Symbol (Normal)"
+
+#: src/Entity/StylePreset.php:2633 src/Entity/StylePreset.php:2643
+#, php-format
+msgid "Click <a href=\"%s\" target=\"_blank\">here</a> to see all Font Awesome icons."
+msgstr "Klicken Sie <a href=\"%s\" target=\"_blank\">hier</a> um alle Font Awesome Symbole anzeigen."
+
+#: src/Entity/StylePreset.php:2642
+msgid "Icon active"
+msgstr "Symbol (Aktiv)"
+
+#: src/Entity/StylePreset.php:2652
+msgid "Icon orientation"
+msgstr "Icon Ausrichtung"
+
+#: src/Entity/StylePreset.php:2662
+msgid "Icon padding"
+msgstr "Icon Innenabstand"
+
+#: src/Entity/StylePreset.php:2672
+msgid "Icon color normal"
+msgstr "Symbol Farbe"
+
+#: src/Entity/StylePreset.php:2682
+msgid "Icon color hover"
+msgstr "Symbol Farbe (hover)"
+
+#: src/Entity/StylePreset.php:2692
+msgid "Icon color active"
+msgstr "Symbol Farbe (aktiv)"
+
+#: src/Entity/StylePreset.php:2702 src/Entity/StylePreset.php:2712
+#: src/Entity/StylePreset.php:2722
+msgid "Icon background color active"
+msgstr "Symbol Hintergrundfarbe (aktiv)"
+
+#: src/Entity/StylePreset.php:2732
+msgid "Icon margin top"
+msgstr "Symbol Außenabstand Oben"
+
+#: src/Entity/StylePreset.php:2742
+msgid "Icon margin bottom"
+msgstr "Symbol Außenabstand Unten"
+
+#: src/Entity/StylePreset.php:2752
+msgid "Icon margin right"
+msgstr "Symbol Außenabstand Rechts"
+
+#: src/Entity/StylePreset.php:2762
+msgid "Icon margin left"
+msgstr "Symbol Außenabstand Links"
+
+#: src/Entity/StylePreset.php:2772 src/Entity/StylePreset.php:2937
+msgid "Border bottom color"
+msgstr "Rahmen-Farbe Unten"
+
+#: src/Entity/StylePreset.php:2782 src/Entity/StylePreset.php:2947
+msgid "Border top color"
+msgstr "Rahmen-Farbe Oben"
+
+#: src/Entity/StylePreset.php:2792 src/Entity/StylePreset.php:2957
+msgid "Border left color"
+msgstr "Rahmen-Farbe Links"
+
+#: src/Entity/StylePreset.php:2802 src/Entity/StylePreset.php:2967
+msgid "Border right color"
+msgstr "Rahmen-Farbe Rechts"
+
+#: src/Entity/StylePreset.php:2812 src/Entity/StylePreset.php:2977
+msgid "Border bottom width"
+msgstr "Rahmen-Breite Unten"
+
+#: src/Entity/StylePreset.php:2822 src/Entity/StylePreset.php:2987
+msgid "Border top width"
+msgstr "Rahmen-Breite Oben"
+
+#: src/Entity/StylePreset.php:2832 src/Entity/StylePreset.php:2997
+msgid "Border left width"
+msgstr "Rahmen-Breite Links"
+
+#: src/Entity/StylePreset.php:2842 src/Entity/StylePreset.php:3007
+msgid "Border right width"
+msgstr "Rahmen-Breite Rechts"
+
+#: src/Entity/StylePreset.php:2852 src/Entity/StylePreset.php:3017
+msgid "Border bottom style"
+msgstr "Rahmen-Stil Unten"
+
+#: src/Entity/StylePreset.php:2862 src/Entity/StylePreset.php:3027
+msgid "Border top style"
+msgstr "Rahmen-Stil Oben"
+
+#: src/Entity/StylePreset.php:2872 src/Entity/StylePreset.php:3037
+msgid "Border left style"
+msgstr "Rahmen-Stil Links"
+
+#: src/Entity/StylePreset.php:2882 src/Entity/StylePreset.php:3047
+msgid "Border right style"
+msgstr "Rahmen-Stil Rechts"
+
+#: src/Entity/StylePreset.php:2892 src/Entity/StylePreset.php:3057
+msgid "Padding left"
+msgstr "Innenabstand Links"
+
+#: src/Entity/StylePreset.php:2902 src/Entity/StylePreset.php:3067
+msgid "Padding right"
+msgstr "Innenabstand Rechts"
+
+#: src/Entity/StylePreset.php:2912 src/Entity/StylePreset.php:3077
+msgid "Padding bottom"
+msgstr "Innenabstand Unten"
+
+#: src/Entity/StylePreset.php:2922 src/Entity/StylePreset.php:3087
+msgid "Padding top"
+msgstr "Innenabstand Oben"
+
+#: src/Entity/StylePreset.php:2929
+msgid "Content"
+msgstr "Inhalt"
+
+#: src/Entity/StylePreset.php:3097
+msgid "Margin left"
+msgstr "Außenabstand Links"
+
+#: src/Entity/StylePreset.php:3107
+msgid "Margin right"
+msgstr "Außenabstand Rechts"
+
+#: src/Entity/StylePreset.php:3117
+msgid "Margin bottom"
+msgstr "Außenabstand Unten"
+
+#: src/Entity/StylePreset.php:3127
+msgid "Margin top"
+msgstr "Außenabstand Oben"
+
+#: src/StylePresets.php:120
+msgid "Accordion minimal"
+msgstr "Akkordeon minimal"
+
+#: src/StylePresets.php:134
+msgid "Accordion with background"
+msgstr "Akkordeon mit Hintergrund"
+
+#: src/StylePresets.php:158
+msgid "Accordion with dividers"
+msgstr "Akkordeon mit Trennern"
+
+#: views/dialogs/edit_style_preset.php:65
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: views/dialogs/edit_style_preset.php:66
+msgid "Choose"
+msgstr "Wählen"
+
+#: views/dialogs/edit_style_preset.php:68
+msgid "Clear Color Selection"
+msgstr "Entferne Farbauswahl"
+
+#: views/dialogs/edit_style_preset.php:151
+#: views/dialogs/edit_style_preset.php:155
+msgid "Remove"
+msgstr "Löschen"
+
+#: views/dialogs/edit_style_preset.php:162
+msgid "Save"
+msgstr "Speichern"
+
+#: views/dialogs/edit_style_preset.php:168
+msgid "More"
+msgstr "Mehr"
+
+#: views/dialogs/edit_style_preset.php:176
+msgid "Export"
+msgstr "Exportieren"
+
+#: views/dialogs/edit_style_preset.php:182
+#: views/dialogs/import_style_preset.php:64
+msgid "Close"
+msgstr "Schließen"
+
+#: views/dialogs/import_style_preset.php:37
+msgid "Drag the style preset here or click to import."
+msgstr "Ziehe Sie die Designvorlagen hier rein oder klicken Sie zum importieren."
+
+#: views/dialogs/import_style_preset.php:54
+msgid "The file could not be imported."
+msgstr "Die Datei konnte nicht importiert werden."
+
+msgid "You must specify a valid text font size for the title text."
+msgstr "Sie müssen einen gültigen Wert für die Schriftgröße des Titel der Designvorlage angeben."
+
+msgid "You must specify a text font size for the title text."
+msgstr "Sie müssen einen Wert für die Schriftgröße des Titel der Designvorlage angeben."
+
+msgid "Add Dummy Item"
+msgstr "Testelement hinzufügen"
+
+msgid "Scroll to active item"
+msgstr "Zum aktiven Element scrollen"

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+    <blocktypes>
+        <blocktype handle="team_management_pro" package="team_management_pro"/>
+    </blocktypes>
+    <singlepages>
+        <page name="Teams" path="/dashboard/team_management_pro" filename="/dashboard/team_management_pro/view.php"
+              pagetype=""
+              description=""
+              package="team_management_pro"/>
+        <page name="List" path="/dashboard/team_management_pro/team_list"
+              filename="/dashboard/team_management_pro/team_list.php"
+              pagetype="" description=""
+              package="team_management_pro"/>
+        <page name="Add/Edit" path="/dashboard/team_management_pro/add_edit"
+              filename="/dashboard/team_management_pro/add_edit.php"
+              pagetype="" description=""
+              package="team_management_pro"/>
+        <page name="Settings" path="/dashboard/topic_vote_questions/team_settings"
+              filename="/dashboard/team_management_pro/team_settings.php"
+              pagetype="" description=""
+              package="team_management_pro"/>
+
+    </singlepages>
+</concrete5-cif>

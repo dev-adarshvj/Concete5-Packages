@@ -1,0 +1,25 @@
+.event_super_clean {
+    min-height: 80px;
+    padding: 0;
+}
+
+.event_super_clean h5 {
+    padding-top: 0;
+}
+
+.event_super_clean .event_times {
+    background-image: url('images/stop_watch_icon&32.png');
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+    padding-left: 26px;
+    float: left;
+    margin-right: 20px;
+}
+
+.event_super_clean .event_local {
+    background-image: url('images/pin_map_icon&32.png');
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+    padding-left: 26px;
+    float: left;
+}

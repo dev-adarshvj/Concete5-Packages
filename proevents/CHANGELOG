@@ -1,0 +1,10 @@
+/****************************/
+version 2
+/****************************/
+
+ADDITIONS
+- new Composer integration
+- new Category Select option with Color Picker
+
+REMOVED
+- google cal xml feeds have been removed. a new package will be developed that fully implements google cal APIv3+

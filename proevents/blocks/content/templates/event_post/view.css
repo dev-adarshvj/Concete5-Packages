@@ -1,0 +1,38 @@
+.date-times {
+    font-size: 17px;
+    float: left;
+    padding-right: 22px;
+    margin: 8px 0;
+}
+
+.date-social {
+    clear: left;
+    margin: 8px 0;
+}
+
+.date-social span {
+    height: 23px !important;
+}
+
+.invite, .save_event {
+    color: white !important;
+    float: right;
+    margin-top: 22px !important;
+    margin-left: 12px !important;
+}
+
+.send_invite {
+    float: right;
+    margin-top: 12px !important;
+}
+
+.invite_emails {
+    width: 310px !important;
+    height: 65px !important;
+}
+
+#iCal {
+    float: right;
+}
+
+#description .thumb{margin-right: 15px;}

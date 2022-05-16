@@ -1,0 +1,150 @@
+.metro_list {
+    font-family: oswald, 'arial narrow';
+}
+
+.metro_list .smallcal {
+    width: 100%;
+    border-left: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    border-top: 1px solid #e3e3e3 !important;
+    min-height: 74px;
+    float: left;
+    clear: left;
+}
+
+.metro_list > .smallcal ~ .smallcal {
+    border-top: none !important;
+}
+
+.metro_list .smallcal h4 {
+    font-size: 24px !important;
+    margin: 0;
+}
+
+.metro_list .smallcal:hover {
+    cursor: pointer;
+    background-color: #fbfbfb;
+}
+
+.metro_list .smallcal:hover .day {
+    color: #535353;
+}
+
+.metro_list .category_color {
+    height: 74px;
+    width: 4px;
+    background-color: #c3c3c3;
+    display: block;
+    float: left;
+}
+
+.event_cal_hover .category_color {
+    height: 74px;
+    width: 7px;
+    background-color: #c3c3c3;
+    display: block;
+    float: left;
+}
+
+.metro_list .month {
+    font-size: 32px;
+    line-height: 38px;
+    margin: 20px auto;
+}
+
+.metro_list .smallcal .day {
+    font-size: 28px;
+    line-height: 30px;
+    float: left;
+    padding: 20px;
+    color: #c8c8c8;
+}
+
+.metro_list .smallcal .title {
+    padding-top: 12px !important;
+}
+
+.metro_list .smallcal .title a {
+    font-size: 22px;
+    line-height: 28px;
+    color: #828282;
+}
+
+.metro_list .smallcal .time {
+    font-size: 9px;
+    line-height: 22px;
+    color: #b6b6b6;
+}
+
+.metro_list .smallcal .details_container h5 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.metro_list .smallcal .details_container {
+    float: left;
+    background-color: #f4f4f4;
+    font-family: sans-serif !important;
+    font-size: 12px;
+}
+
+.metro_list .smallcal .details_container div {
+    display: block;
+    padding-left: 42px;
+    margin: 20px;
+}
+
+.metro_list .smallcal .description {
+    background-image: url('images/chat_bubble_message_square_icon&32.png');
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    margin: 20px;
+}
+
+.metro_list .smallcal .description h5 {
+    height: 24px;
+    font-family: oswald, 'arial narrow';
+}
+
+.metro_list .smallcal .event_times {
+    background-image: url('images/stop_watch_icon&32.png');
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position-y: 20px;
+    border-top: 1px solid lightgray;
+    padding-top: 20px;
+}
+
+.metro_list .smallcal .event_times h5 {
+    height: 24px;
+    font-family: oswald, 'arial narrow';
+}
+
+.metro_list .smallcal .local {
+    background-image: url('images/pin_map_icon&32.png');
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position-y: 20px;
+    border-top: 1px solid lightgray;
+    padding-top: 20px;
+}
+
+.metro_list .smallcal .local h5 {
+    height: 24px;
+    font-family: oswald, 'arial narrow';
+}
+
+.metro_list .smallcal .contact {
+    background-image: url('images/user_icon&32.png');
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position-y: 20px;
+    border-top: 1px solid lightgray;
+    padding-top: 20px;
+}
+
+.metro_list .smallcal .contact h5 {
+    height: 24px;
+    font-family: oswald, 'arial narrow';
+}

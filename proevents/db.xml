@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="btProEventDates">
+        <field name="eID" type="I">
+            <key/>
+            <unsigned/>
+            <autoincrement/>
+        </field>
+        <field name="title" type="C" size="100">
+        </field>
+        <field name="category" type="C" size="256">
+        </field>
+        <field name="section" type="C" size="256">
+        </field>
+        <field name="location" type="C" size="100">
+        </field>
+        <field name="eventID" type="I">
+        </field>
+        <field name="date" type="D"/>
+        <field name="end_date" type="D"/>
+        <field name="allday" type="I">
+            <default value="0"/>
+        </field>
+        <field name="grouped" type="I">
+        </field>
+        <field name="sttime" type="time">
+            <null/>
+        </field>
+        <field name="entime" type="time">
+            <null/>
+        </field>
+        <field name="description" type="X2"/>
+        <field name="additional_data" type="X2"/>
+        <field name="status" type="C" size="100">
+        </field>
+        <field name="updated" type="I">
+        </field>
+        <field name="event_qty" type="I">
+        </field>
+        <field name="event_price" type="C" size="100">
+        </field>
+        <index name="idx_eventID">
+            <col>eventID</col>
+        </index>
+    </table>
+    <table name="btProEventSettings">
+        <field name="sID" type="I">
+            <key/>
+            <unsigned/>
+            <autoincrement/>
+        </field>
+        <field name="showHolidays" type="C" size="8">
+        </field>
+        <field name="showTooltips" type="C" size="8">
+        </field>
+        <field name="tooltipColor" type="C" size="16">
+        </field>
+        <field name="themed" type="C" size="8">
+        </field>
+        <field name="time_formatting" type="C" size="8">
+        </field>
+        <field name="tz_format" type="C" size="128">
+        </field>
+        <field name="defaultView" type="C" size="16">
+        </field>
+        <field name="search_path" type="C" size="100">
+        </field>
+        <field name="tweets" type="C" size="100">
+        </field>
+        <field name="google" type="C" size="100">
+        </field>
+        <field name="fb_like" type="C" size="100">
+        </field>
+        <field name="invites" type="C" size="100">
+        </field>
+        <field name="user_events" type="C" size="100">
+        </field>
+        <field name="ctID" type="C" size="100">
+        </field>
+        <field name="xml_feeds" type="X2"/>
+        <field name="sharethis_key" type="C" size="256">
+        </field>
+    </table>
+    <table name="btProEventDatesExclude">
+        <field name="eeID" type="I">
+            <key/>
+            <unsigned/>
+            <autoincrement/>
+        </field>
+        <field name="eventID" type="I">
+        </field>
+        <field name="date" type="D"/>
+        <index name="idx_eventID">
+            <col>eventID</col>
+        </index>
+    </table>
+    <table name="btProEventUserSaved">
+        <field name="ueID" type="I">
+            <key/>
+            <unsigned/>
+            <autoincrement/>
+        </field>
+        <field name="eventID" type="I">
+        </field>
+        <field name="uID" type="I">
+        </field>
+        <index name="idx_eventID">
+            <col>eventID</col>
+        </index>
+    </table>
+</schema>

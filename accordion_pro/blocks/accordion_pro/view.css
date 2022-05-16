@@ -1,0 +1,30 @@
+/**
+ * @project:   Progressbar add-on for concrete5
+ * 
+ * @author     Fabian Bitter
+ * @copyright  (C) 2017 Bitter Webentwicklung (www.bitter-webentwicklung.de)
+ * @version    1.0
+ */
+ 
+ .faq .accordion-item button {
+        width: 1px;
+    height: 1px;
+    padding: 0px !important;
+    border: none !important;
+    position: relative;
+    
+ }
+  .faq .accordion-item button:focus {
+     background-image: url(/application/themes/connexus/images/tab-arrow.png);
+    background-repeat: no-repeat;
+    z-index: 1000;
+    background-size: 12px;
+    background-position: center;
+    display: block;
+    position: relative;
+    top: 5px;
+        width: 16px;
+    height: 16px;
+    /*float: right;
+    right: -130px;*/
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema version="0.3">
+    <table name="btAccordionPro">
+        <field name="bID" type="I">
+            <unsigned/>
+            <key/>
+        </field>
+        
+        <field name="stylePresetId" type="I">
+            <unsigned/>
+        </field>
+        
+        <field name="animationDuration" type="I">
+            <default value="300"/>
+            <unsigned/>
+        </field>
+        
+        <field name="semanticTag" type="C">
+            <default value="h2"/>
+            <unsigned/>
+        </field>
+        
+        <field name="collapse" type="L">
+            <default value="1"/>
+            <unsigned/>
+        </field>
+        
+        <field name="scrollToActiveItem" type="L">
+            <default value="0"/>
+            <unsigned/>
+        </field>
+		
+		
+		 <field name="faqtitle" type="C">
+            <unsigned/>
+        </field>
+    </table>
+</schema>

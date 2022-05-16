@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="btProEventList">
+        <field name="bID" type="I">
+            <key/>
+            <unsigned/>
+        </field>
+        <field name="num" type="C" size="225">
+        </field>
+        <field name="rssTitle" type="C" size="255">
+        </field>
+        <field name="rssDescription" type="X2">
+        </field>
+        <field name="truncateSummaries" type="C" size="225">
+        </field>
+        <field name="listType" type="C" size="225">
+        </field>
+        <field name="truncateChars" type="C" size="225">
+        </field>
+        <field name="nonelistmsg" type="C" size="225">
+        </field>
+        <field name="showfeed" type="C" size="225">
+        </field>
+        <field name="showfilters" type="I"></field>
+        <field name="ctID" type="C" size="225">
+            <default value="All Categories"/>
+        </field>
+        <field name="sctID" type="C" size="225">
+            <default value="All Sections"/>
+        </field>
+        <field name="isPaged" type="C" size="225">
+        </field>
+        <field name="ordering" type="C" size="225">
+        </field>
+        <field name="filter_by_user" type="I"></field>
+    </table>
+</schema>

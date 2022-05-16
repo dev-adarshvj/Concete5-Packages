@@ -1,0 +1,226 @@
+.accordion-container.style-preset-@{presetId} {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    clear: both;
+    
+    .accordion-item {
+        display: block;
+        float: left;
+        width: 100%;
+        clear: both;
+        
+        .accordion-header {
+            display: block;
+            float: left;
+            width: 100%;
+            position: relative;
+
+            margin-left: @titleMarginLeft;
+            margin-right: @titleMarginRight;
+            margin-bottom: @titleMarginBottom;
+            margin-top: @titleMarginTop;
+
+            height: @titleHeight;
+            
+            .accordion-title-overlay {
+                position: absolute;
+                display: block;
+                float: left;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                cursor: pointer;
+            }
+
+            .accordion-header-inner {
+                display: block;
+                float: left;
+                width: 100%;
+
+                border-bottom-color: @titleBorderBottomColor;
+                border-top-color: @titleBorderTopColor;
+                border-left-color: @titleBorderLeftColor;
+                border-right-color: @titleBorderRightColor;
+
+                border-bottom-width: @titleBorderBottomWidth;
+                border-top-width: @titleBorderTopWidth;
+                border-left-width: @titleBorderLeftWidth;
+                border-right-width: @titleBorderRightWidth;
+
+                border-bottom-style: @titleBorderBottomStyle;
+                border-top-style: @titleBorderTopStyle;
+                border-left-style: @titleBorderLeftStyle;
+                border-right-style: @titleBorderRightStyle;
+
+                padding-left: @titlePaddingLeft;
+                padding-right: @titlePaddingRight;
+                padding-bottom: @titlePaddingBottom;
+                padding-top: @titlePaddingTop;
+
+                background-color: @titleBackgroundColorNormal;
+                
+                .accordion-title {
+                    display: block;
+                    float: left;
+                    width: 85%;
+
+                    h2, h3, h4, h5, h6 {
+                        display: block;
+                        float: left;
+                        margin: 0;
+                        padding: 0;
+
+                        font-size: @titleTextFontSize;
+
+                        display: block;
+                        float: left;
+                        color: @titleTextColorNormal;
+                        font-weight: @titleTextFontWeight;
+                        text-decoration: @titleTextDecoration;
+                        
+                        line-height: @titleLineHeight;
+                    }
+                }
+            }
+
+            .accordion-icon {
+                display: block;
+                float: right;
+                position: relative;
+                width: 15%;
+
+                &:before {
+                    float: right;
+                    
+                    content: "\@{titleIconNormal}"; 
+                    color: @titleIconColorNormal;
+                    font: normal normal normal 14px/1 FontAwesome;
+
+                    font-size: @titleTextFontSize;
+                    font-weight: @titleTextFontWeight;
+
+                    text-rendering: auto;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    
+                    padding: @titleIconPadding;
+                    background-color: @titleIconBackgroundColorNormal;
+                    
+                    margin-left: @titleIconMarginLeft;
+                    margin-right: @titleIconMarginRight;
+                    margin-bottom: @titleIconMarginBottom;
+                    margin-top: @titleIconMarginTop;
+                }
+            }
+            
+            &.left {
+                .accordion-header-inner {
+                    .accordion-title { 
+                        float: auto;
+                    }
+                }
+                
+                .accordion-icon {
+                    float: left;
+                    width: auto;
+                }
+            }
+        }
+        
+        .accordion-outer-content {
+            display: block;
+            float: left;
+            width: 100%;
+            overflow: hidden;
+            height: 0;
+
+            margin-left: @contentMarginLeft;
+            margin-right: @contentMarginRight;
+            margin-bottom: @contentMarginBottom;
+            margin-top: @contentMarginTop;
+
+            .accordion-content {
+                display: block;
+                float: left;
+                width: 100%;
+
+                border-bottom-color: @contentBorderBottomColor;
+                border-top-color: @contentBorderTopColor;
+                border-left-color: @contentBorderLeftColor;
+                border-right-color: @contentBorderRightColor;
+
+                border-bottom-width: @contentBorderBottomWidth;
+                border-top-width: @contentBorderTopWidth;
+                border-left-width: @contentBorderLeftWidth;
+                border-right-width: @contentBorderRightWidth;
+
+                border-bottom-style: @contentBorderBottomStyle;
+                border-top-style: @contentBorderTopStyle;
+                border-left-style: @contentBorderLeftStyle;
+                border-right-style: @contentBorderRightStyle;
+
+                padding-left: @contentPaddingLeft;
+                padding-right: @contentPaddingRight;
+                padding-bottom: @contentPaddingBottom;
+                padding-top: @contentPaddingTop;
+            }
+        }
+        
+        &:hover {
+            .accordion-header {
+                .accordion-header-inner {
+                    .accordion-title {
+                        h2, h3, h4, h5, h6 {
+                            background-color: @titleBackgroundColorHover;
+                            color: @titleTextColorHover;
+                        }
+                    }
+
+                    .accordion-icon {
+
+                        &:before {
+                            background-color: @titleIconBackgroundColorHover;
+                            color: @titleIconColorHover;
+                        }
+                    }
+                }
+            }
+
+            .accordion-content {
+
+            }    
+        }
+        
+        &.open {
+            .accordion-header {
+                .accordion-header-inner {
+                    .accordion-title {
+                        h2, h3, h4, h5, h6 {
+                            background-color: @titleBackgroundColorActive;
+                            color: @titleTextColorActive;
+                        }
+                    }
+
+                    .accordion-icon {
+
+                        &:before {
+                            background-color: @titleIconBackgroundColorActive;
+                            content: "\@{titleIconActive}"; 
+                            color: @titleIconColorActive;
+                        }
+                    }
+                }
+            }
+
+            .accordion-outer-content {
+                height: auto;
+
+                .accordion-content {
+                    
+                }    
+            }
+        }
+    }
+}

@@ -1,0 +1,297 @@
+.event_nav li {
+    margin-left: 0 !important;
+}
+
+.event_nav {
+}
+
+.event_nav select {
+    margin: 0;
+    border: none;
+    z-index: 7;
+    line-height: 30px;
+    height: 38px !important;
+}
+
+.event_nav .button {
+    width: 24px;
+    background-color: #e8e8e8;
+    height: 30px;
+    line-height: 30px;
+    background-color: #e8e8e8;
+}
+
+.title_year {
+    float: right;
+    margin-top: -48px;
+}
+
+.calendar ul.month-browser li {
+    width: 33.3%;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    text-transform: uppercase;
+    height: auto;
+    margin: 20px 0;
+}
+
+.calendar {
+    width: 100%;
+}
+
+.calendar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    clear: both;
+    width: 100%;
+}
+
+.calendar ul.weekdays {
+    height: 40px;
+}
+
+.calendar ul.weekdays li {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 20px;
+    border: none !important;
+    padding: 10px 6px;
+    color: #666;
+    font-size: 13px;
+}
+
+.calendar li {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 14.2857142857%;
+    padding: 5px;
+    display: block;
+    float: left;
+    border: 1px solid #ccc;
+    margin-left: 0 !important;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    overflow: visible !important;
+}
+
+.calendar .days:last-child li {
+    margin-bottom: 0px !important;
+}
+
+.calendar li .day, .calendar li .month {
+    display: none;
+}
+
+.calendar .date {
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+.show-info {
+    display: block;
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: #666;
+    line-height: 14px;
+    background: #f2f2f2;
+    border: 1px solid #d4d4d4;
+    color: #656565;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.show-info:hover .venue {
+    display: block;
+}
+
+.show-info .show-name {
+    text-decoration: underline;
+}
+
+.show-info .show-time, .venue {
+    color: #666;
+    margin-top: 2px;
+    text-decoration: none;
+}
+
+.calendar .no-shows {
+    display: none;
+}
+
+.calendar .venue {
+    display: none;
+}
+
+.calendar .venue:before {
+    content: 'at the ';
+}
+
+.calendar li.out_of_range {
+    background-color: #F5F5F5;
+    color: #666;
+}
+
+@media only screen and (max-width: 768px) {
+    .calendar ul.month-browser li {
+        font-size: 12px;
+    }
+
+    .calendar ul {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .calendar .weekdays {
+        display: none;
+    }
+
+    .calendar li {
+        display: block;
+        height: auto !important;
+        border: 1px solid #ededed;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        margin-bottom: -1px;
+    }
+
+    .calendar li .day, .calendar li .month {
+        display: inline;
+    }
+
+    .calendar .no-shows {
+        display: block;
+        color: #ccc;
+        text-align: center;
+    }
+
+    .calendar .date {
+        text-align: center;
+    }
+
+    .show-info .show-name {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .show-info .venue, .show-info .show-time, .show-info:hover .venue, .show-info:hover .show-time {
+        display: inline;
+    }
+
+    .calendar li.out_of_range {
+        display: none;
+    }
+}
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation: landscape) {
+    .show-info .venue, .show-info .show-time, .show-info:hover .venue, .show-info:hover .show-time {
+        display: inline;
+    }
+}
+
+.button {
+}
+
+.button.pink {
+    font: bold 1em/1.2em Arial;
+    color: #fff;
+    text-shadow: 0 1px 0 #a52482;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: 1px solid #cf2da3;
+    box-shadow: inset 0px 1px 0 #f5d3ec;
+    background: #e37fc8;
+}
+
+.button.pink:hover {
+    background: #eca9da;
+}
+
+.calendar .booked {
+    background-color: #ffdbdb;
+}
+
+.calendar .available {
+    background-color: #dfffdc;
+}
+
+.calendar li.date_fill {
+    background-color: #f5f5f5;
+}
+
+@media only screen and (max-width: 768px) {
+    .calendar .date_fill {
+        display: none;
+    }
+
+    #setyear, #setmo {
+        display: none;
+    }
+}
+
+.calendar .show-info {
+    max-width: 320px;
+    position: absolute;
+}
+
+.category_color {
+    padding: 4px;
+    color: white !important;
+    font-size: 13px;
+}
+
+/* button
+---------------------------------------------- */
+.button {
+    display: inline-block;
+    zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+    *display: inline;
+    vertical-align: baseline;
+    margin: 0 2px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 12px/100% Arial, Helvetica, sans-serif;
+    padding: .3em .7em .3em;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+.right {
+    float: right;
+}
+
+.button:hover {
+    text-decoration: none;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+}
+
+.bigrounded {
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+}
+
+.medium {
+    font-size: 12px;
+    padding: .4em 1.5em .42em;
+}
+
+.small {
+    font-size: 11px;
+    padding: .2em 1em .275em;
+}
